@@ -1,0 +1,86 @@
+@font-face {
+	font-family: cocaColaFont;
+	src: url(../fonts/lokicola.ttf);
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.logo {
+    margin-top: 3px;
+}
+
+.logo h1 {
+    font-family: cocaColaFont; /* You don't need to repeat this for each media query as it is propogated */
+    font-size: 41px;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+.logo h2 {
+    font-family: cocaColaFont;
+    font-size: 43px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+}
+
+.logo h3 {
+    font-size: 31px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+}
+
+.logo p {
+    font-size: 10px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 8px;
+}
+
+.model3D{
+    border-radius: 5px;
+    border: 0px solid rgba(0, 0, 0, 1.0);
+    padding: 2px;
+    height: 400px;
+}
+
+X3D, x3d{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%
+}
+.mgallery {
+    display: block;
+    -webkit-box-direction: normal;
+    word-wrap: break-word;
+}
+.galleryimg {
+    background-color: rgba(255, 255, 255, 0.0);
+    padding: 0.25rem;
+    margin: 2px;
+    max-width: 43%;
+    height: auto;
+    padding: 0.25rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 50%;
+    height: auto;
+}
